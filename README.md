@@ -1,20 +1,20 @@
-# Navega al directorio de tu proyecto
-cd ruta/a/tu/proyecto
+# Abre Git Bash y ejecuta estos comandos
 
-# Inicializa un nuevo repositorio de Git
+# Ve a la carpeta donde tengas tu proyecto
+cd /c/Users/dairalvg13/Documents/proyecto
+
+# Inicializa Git
 git init
 
-# Agrega todos los archivos al área de preparación
+# Agrega todos los archivos
 git add .
 
-# Realiza el primer commit
+# Crea el primer commit
 git commit -m "Primer commit de mi programa"
 
-# Agrega la URL del repositorio remoto
+# Agrega el repositorio remoto (reemplaza por el tuyo)
 git remote add origin https://github.com/dairalvg13/programa.git
 
-# Verifica que el remoto se haya agregado correctamente
-git remote -v
-
-# Sube los cambios al repositorio en GitHub
+# Sube los archivos a GitHub
 git push -u origin main
+
