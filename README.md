@@ -1,6 +1,20 @@
-git clone https://github.com/dairalvg13/programa.git
-cd programa
-echo "print('Hola desde GitHub!')" > hola.py
+# Navega al directorio de tu proyecto
+cd ruta/a/tu/proyecto
+
+# Inicializa un nuevo repositorio de Git
+git init
+
+# Agrega todos los archivos al área de preparación
 git add .
-git commit -m "Primer commit con mi programa"
-git push origin main
+
+# Realiza el primer commit
+git commit -m "Primer commit de mi programa"
+
+# Agrega la URL del repositorio remoto
+git remote add origin https://github.com/tu-usuario/mi-programa.git
+
+# Verifica que el remoto se haya agregado correctamente
+git remote -v
+
+# Sube los cambios al repositorio en GitHub
+git push -u origin main
