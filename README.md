@@ -11,7 +11,7 @@ git add .
 git commit -m "Primer commit de mi programa"
 
 # Agrega la URL del repositorio remoto
-git remote add origin https://github.com/tu-usuario/mi-programa.git
+git remote add origin https://github.com/dairalvg13/programa.git
 
 # Verifica que el remoto se haya agregado correctamente
 git remote -v
