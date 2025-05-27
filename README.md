@@ -1,4 +1,4 @@
-git clone https://github.com/programa.git
+git clone https://github.com/dairalvg13/programa.git
 cd programa
 echo "print('Hola desde GitHub!')" > hola.py
 git add .
